@@ -8,13 +8,13 @@ Description: |
   2) Land Cover imagery collected from [Multi-Resolution Land Characteristics Consortium](https://www.mrlc.gov/)
   3) Road network data processed from OpenStreetMap
 Contact: Eli Knaap <knaap@ucr.edu>
-ManagedBy: [UCR Center for Geospatial Sciences](https://spatial.ucr.edu)
+Documentation: https://spatialucr.github.io/geosnap-guide/home
+ManagedBy: "[UCR Center for Geospatial Sciences](https://spatial.ucr.edu)"
 UpdateFrequency: Annually
 Tags:
   - urban
-  - geography
-  - demography
-  - spatial analysis
+  - geospatial
+  - demographics
 License: BSD
 Resources:
   - Description: Data files stored as Apache parquet and GeoTiff in a public bucket
@@ -22,7 +22,8 @@ Resources:
     Region: us-east-1
     Type: S3 Bucket
 DataAtWork:
-  - Title: Geosnap User Guide
-    URL: https://spatialucr.github.io/geosnap-guide/home
-    AuthorName: Eli Knaap
-    AuthorURL: https://knaaptime.com
+  Tools & Applications:
+    - Title: Geosnap User Guide
+      URL: https://spatialucr.github.io/geosnap-guide/home
+      AuthorName: Eli Knaap
+      AuthorURL: https://knaaptime.com
